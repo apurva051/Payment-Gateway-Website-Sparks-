@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>
+            Memebership form
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            body{
+                background: #34495e;
+            }
+            .contact
+            {
+                background: rgba(0,0,0,0.5);
+                width: 40%;
+                padding: 30px 30px;
+                top: 45%;
+                position: absolute;
+                transform: translate(-40%,-40%);
+                box-sizing: border-box;
+                left: 45%;
+            }
+            .txtb
+            {
+                border:1px solid gray;
+                margin: 8px 0;
+                padding: 10px 10px;
+                border-radius: 8px;
+            }
+            .txtb label
+            {
+                display: block;
+                padding: 5px 5px;
+                text-transform: uppercase;
+                color: #fff;
+                text-align: left;
+            }
+            .txtb input
+            {
+                width: 80%;
+                padding: 5px 5px;
+            }
+            .btn
+            {
+                text-align: center;
+                display: block;
+                text-transform: uppercase;
+                padding: 5px 5px;
+                font-size: 14pt;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="logo">Helping Hands</div>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="donatenow.html">DONATE</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <form method="post" >
+        <div class="contact">
+            <div class="txtb">
+            <label class="labels">Name</label>
+            <input class="inputs" type="text" name="name" id="name">
+            <br>
+            </div>
+
+            <div class="txtb">
+            <label class="labels">Surname</label>
+            <input class="inputs" type="text" name="surname" id="surname">
+            <br>
+            </div>
+
+            <div class="txtb">
+            <label class="labels">Email</label>
+            <input class="inputs" type="email" name="Email" id="Email" placeholder="xyz@gmail.com">
+            <br>
+            </div>
+
+            <div class="txtb">
+            <label class="labels">Phone</label>
+            <input class="inputs" type="text" name="phone" id="phone">
+            <br>
+            </div>
+
+            <div class="txtb">
+            <label class="labels">Institute</label>
+            <input class="inputs" type="text" name="clg" id="clg">
+            <br>
+            </div>
+            
+            <div class="btn">
+            <input type="submit" value="Submit">
+            </div>
+        </div>
+        </form>
+    </body>
+</html>
